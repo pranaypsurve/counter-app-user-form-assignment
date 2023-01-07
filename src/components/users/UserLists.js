@@ -10,7 +10,7 @@ class UserLists extends Component {
                         <input type='text' className="form-control" onChange={this.props.searchUser} placeholder='Search User' />
                     </div>
                     <div className='table-responsive'>
-                        <table className="table-responsive table-striped">
+                        <table className="table table-striped">
                             <thead>
                                 <tr>
                                     <th>Name</th>
