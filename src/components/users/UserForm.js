@@ -59,23 +59,23 @@ export default class UserForm extends Component {
                 <h1 className='text-center'>User Form</h1>
                 <form onSubmit={this.handleFormSubmit}>
                   <div className='row'>
-                    <div className='col-6 mb-2'>
+                    <div className='col-md-6 mb-2'>
                       <label htmlFor='name'>Name</label>
                       <input type='text' name='name' id='name' value={this.state.formData.name} onChange={this.handleUserInput} className='form-control' placeholder='Name' required />
                     </div>
-                    <div className='col-6 mb-2'>
+                    <div className='col-md-6 mb-2'>
                       <label htmlFor='email'>Email</label>
                       <input type='email' name='email' id='email' value={this.state.formData.email} onChange={this.handleUserInput} className='form-control' placeholder='Email'/>
                     </div>
-                    <div className='col-6 mb-2'>
+                    <div className='col-md-6 mb-2'>
                       <label htmlFor='number'>Number</label>
                       <input type='number' name='number' id='number' value={this.state.formData.number} onChange={this.handleUserInput} className='form-control' placeholder='Phone Number' />
                     </div>
-                    <div className='col-6 mb-2'>
+                    <div className='col-md-6 mb-2'>
                       <label htmlFor='city'>City</label>
                       <input type='text' name='city' id='city' value={this.state.formData.city} onChange={this.handleUserInput} className='form-control' placeholder='City' />
                     </div>
-                    <div className='col-6 mb-2'>
+                    <div className='col-md-6 mb-2'>
                       <button type='submit' className='btn btn-success'>Submit</button>
                     </div>
                   </div>
